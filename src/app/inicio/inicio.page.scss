@@ -1,0 +1,41 @@
+
+
+  .boton {
+    /* Establece el color de fondo predeterminado del botón */
+    --background: var(--ion-color-warning);
+    
+    /* Establece el color de fondo cuando el botón se encuentra en estado hover (ratón sobre el botón) */
+    --background-hover: var(--ion-color-warning-contrast);
+    
+    /* Establece el color de fondo cuando el botón se encuentra en estado activated (haciendo clic en el botón) */
+    --background-activated: var(--ion-color-warning-shade);
+    
+    /* Establece el color de fondo cuando el botón está enfocado (recibe el enfoque de entrada) */
+    --background-focused: var(--ion-color-warning-tint);
+    
+    /* Establece el color del texto del botón */
+    --color: var(--ion-color-light);
+    
+    /* Establece el radio de borde del botón (es decir, las esquinas redondeadas) */
+        
+    /* Establece el color del borde del botón */
+    --border-color: var(--ion-color-warning);
+    
+    /* Establece el estilo del borde del botón */
+    --border-style: solid;
+    
+    /* Establece el ancho del borde del botón */
+    --border-width: 1px;
+    
+    /* Establece la sombra de caja (sombra del botón) */
+    --box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+    
+    /* Establece el color de la animación de "ripple" (efecto de ondulación al hacer clic en el botón) */
+    --ripple-color: var(--ion-color-warning);
+    
+    /* Establece el espacio en la parte superior del botón */
+    --padding-top: 10px;
+    
+    /* Establece el espacio en la parte inferior del botón */
+    --padding-bottom: 10px;
+  }
